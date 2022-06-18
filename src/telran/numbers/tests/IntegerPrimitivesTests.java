@@ -30,7 +30,7 @@ class IntegerPrimitivesTests {
 	}
 	@Test
 	void getLengthChar() {
-		assertEquals(2, IntegerPrimitives.getLengthChar());
+		assertEquals(2, IntegerPrimitives.getLengthChar()); 
 	}
 	@Test
 	void getMaxShort() {

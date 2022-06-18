@@ -3,13 +3,17 @@ package telran.numbers;
 public class IntegerPrimitives {
 
 	public static byte getMaxByte() {
-		// TODO Auto-generated method stub
-		return -1;
+		byte res = 1;
+		while (res > 0) {
+			res = (byte) (res * 2);
+
+		}
+		return (byte) (res - 1);
 	}
 
 	public static byte getMinByte() {
-		// TODO Auto-generated method stub
-		return -1;
+	
+		return (byte) (getMaxByte() +1) ;
 	}
 
 	public static int getLengthByte() {
@@ -104,6 +108,8 @@ public class IntegerPrimitives {
 	 *         for any type
 	 */
 	private static int getLength(long x) {
+		
+		
 		// TODO
 
 		return -1;
